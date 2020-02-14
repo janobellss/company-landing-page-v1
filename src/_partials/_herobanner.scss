@@ -1,0 +1,10 @@
+.site-hero {
+    background: url(https://i.imgur.com/SmZc55O.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 91% 50%;
+
+    &__headline {
+        padding: 11rem 0 14rem 0;
+    }
+}

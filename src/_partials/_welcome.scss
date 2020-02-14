@@ -1,0 +1,16 @@
+.site-welcome {
+    background: #FFF;
+
+    &__contents {
+        padding-bottom: 4rem;
+    }
+
+    &__headline {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    &__description {
+        text-align: center;
+    }
+}

@@ -1,0 +1,30 @@
+.site-footer {
+    background: $primary-color;
+    border-top: 12px solid $secondary-color;
+    // height: 320px;
+    height: 100%;
+
+    &__contents {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+    }
+}
+
+.footer-nav {
+    list-style-type: none;
+    padding: 1rem;
+
+    &__title {
+        padding-bottom: 1rem;
+    }
+
+    &__link {
+        @include transition-ease;
+        
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}

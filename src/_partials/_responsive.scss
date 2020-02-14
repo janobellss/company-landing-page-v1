@@ -1,0 +1,88 @@
+@include media-md {
+    h1 {
+        font-size: 100px;
+    }
+
+    h2 {
+        font-size: 64px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .site-hero {
+        background-position: bottom right;
+        
+        &__headline {
+            text-align: left;
+        }
+    }
+
+    .site-team {
+        transform: translateY(-100px);
+
+        &__members {
+            flex-direction: row;
+
+            padding: 0;
+        }
+
+        &__member {
+            width: 200px;
+            height: 200px;
+            margin: 0;
+            cursor: pointer;
+
+            &::before {
+                background: rgba(0,0,0,0);
+            }
+
+            &:hover {
+                .site-team__member--name,
+                .site-team__member--position,
+                .site-team__member--line {
+                    opacity: 1;
+                }
+
+                &::before {
+                    background: rgba(0,0,0,0.3);
+                }
+            }
+        }
+
+        &__member--name {
+            opacity: 0;
+        }
+    
+        &__member--position {
+            opacity: 0;
+        }
+    
+        &__member--line {
+            opacity: 0;
+        }
+    }
+
+    .site-welcome {
+        &__contents {
+            padding-bottom: 8rem;
+        }
+    }
+
+    .site-footer {
+        height: 320px;
+    
+        &__contents {
+            padding-top: 3rem;
+        }
+    }
+    
+    .footer-nav {
+        padding: 0;
+    }
+}
