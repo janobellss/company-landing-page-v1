@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/company-landing-page-v1/static/css/main.726f5c5d.chunk.css",
+    "main.js": "/company-landing-page-v1/static/js/main.91188579.chunk.js",
+    "main.js.map": "/company-landing-page-v1/static/js/main.91188579.chunk.js.map",
+    "runtime-main.js": "/company-landing-page-v1/static/js/runtime-main.92e5c921.js",
+    "runtime-main.js.map": "/company-landing-page-v1/static/js/runtime-main.92e5c921.js.map",
+    "static/js/2.4ab941bb.chunk.js": "/company-landing-page-v1/static/js/2.4ab941bb.chunk.js",
+    "static/js/2.4ab941bb.chunk.js.map": "/company-landing-page-v1/static/js/2.4ab941bb.chunk.js.map",
+    "index.html": "/company-landing-page-v1/index.html",
+    "precache-manifest.a57dd3738d70a4f7a852b75866addf66.js": "/company-landing-page-v1/precache-manifest.a57dd3738d70a4f7a852b75866addf66.js",
+    "service-worker.js": "/company-landing-page-v1/service-worker.js",
+    "static/css/main.726f5c5d.chunk.css.map": "/company-landing-page-v1/static/css/main.726f5c5d.chunk.css.map",
+    "static/js/2.4ab941bb.chunk.js.LICENSE.txt": "/company-landing-page-v1/static/js/2.4ab941bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92e5c921.js",
+    "static/js/2.4ab941bb.chunk.js",
+    "static/css/main.726f5c5d.chunk.css",
+    "static/js/main.91188579.chunk.js"
+  ]
+}
